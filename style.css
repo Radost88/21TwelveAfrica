@@ -1175,7 +1175,7 @@ p {
 }
 
 
-/* CONTACT */
+/* CONTACT SECTION START*/
 
 .container-services {
   width: 100%;
@@ -1438,8 +1438,6 @@ textarea.contact-input ~ .icon {
   left: 50%;
   top:50%;
   transform: translate(-50%, -50%);
-  /* overflow-clip-margin: content-box;
-  overflow: clip; */
   vertical-align: middle;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -1587,56 +1585,7 @@ textarea.contact-input ~ .icon {
       padding: 1rem 2rem;
   }
 }
-
-/*===== call action four =====*/
-.call-action {
-  z-index: 2;
-  padding: 100px 0;
-  background: linear-gradient(45deg, var(--primary), var(--primary-dark));
-  position: relative;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .call-action {
-    padding: 80px;
-  }
-}
-@media (max-width: 767px) {
-  .call-action {
-    padding: 60px 0;
-  }
-}
-.call-action:before {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-image: url("assets/images/call-action/overlay.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  z-index: -1;
-}
-.call-action .inner-content {
-  text-align: center;
-}
-.call-action .inner-content h2 {
-  font-weight: 700;
-  margin-bottom: 30px;
-  color: var(--white);
-}
-.call-action .inner-content p {
-  color: var(--white);
-}
-.call-action .inner-content .light-rounded-buttons {
-  margin-top: 45px;
-  display: block;
-}
-.call-action .inner-content .light-rounded-buttons .primary-btn-outline {
-  border-color: var(--white);
-  color: var(--white);
-}
+/* CONTACT SECTION END */
 
 
 /* FOOTER SECTION START */
