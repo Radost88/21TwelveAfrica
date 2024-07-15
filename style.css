@@ -1504,10 +1504,6 @@ textarea.contact-input ~ .icon {
       top: 1.33rem;
   }
 
-  .input-wrap.focus .contact-input {
-      box-shadow: 0 0 0 3.5px;
-  }
-
   .input-wrap.not-empty label {
       font-size: 0.61rem;
   }
